@@ -20,7 +20,7 @@ $("#check").click(function() {
     } else {
         Score += 20;
         $(".user_helper").css("color", "green").text("Correct, it's " + guessed_number + "!");
-        score_id.txt(Score);
+        score_id.text(Score);
         if(Score > highscore){
             highscore=Score;
             
